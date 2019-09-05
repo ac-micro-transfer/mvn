@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.gitium</groupId>
+  <artifactId>gitium-android-core</artifactId>
+  <version>1.0.3-SNAPSHOT</version>
+  <packaging>aar</packaging>
+  <dependencies>
+    <dependency>
+      <groupId>android.arch.persistence.room</groupId>
+      <artifactId>runtime</artifactId>
+      <version>1.1.1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.gitium</groupId>
+      <artifactId>gitium-java</artifactId>
+      <version>1.0.3-SNAPSHOT</version>
+    </dependency>
+  </dependencies>
+</project>
